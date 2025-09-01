@@ -7,6 +7,12 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Фоновая музыка -->
+  <audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудио.
+  </audio>
+
   <div class="container">
     <div class="heart"></div>
 
@@ -20,36 +26,21 @@
     </p>
     
     <button onclick="location.reload()">💗 Обнять меня? 💗</button>
-  </div>
 
-  <!-- Слайдер -->
-  <div class="slider-section">
-    <h2>🌸 Наши моменты 🌸</h2>
+    <!-- Слайдер -->
     <div class="slider">
-      <div class="slide-track">
-        <!-- Повторение 2х кругов для бесконечной анимации -->
-        <div class="slide"><img src="img1.jpg" alt="1"></div>
-        <div class="slide"><img src="img2.jpg" alt="2"></div>
-        <div class="slide"><img src="img3.jpg" alt="3"></div>
-        <div class="slide"><img src="img4.jpg" alt="4"></div>
-        <div class="slide"><img src="img5.jpg" alt="5"></div>
-        <div class="slide"><img src="img6.jpg" alt="6"></div>
-        <div class="slide"><img src="img7.jpg" alt="7"></div>
-        <div class="slide"><img src="img8.jpg" alt="8"></div>
-        <div class="slide"><img src="img9.jpg" alt="9"></div>
-        <div class="slide"><img src="img10.jpg" alt="10"></div>
-
-        <!-- Повтор -->
-        <div class="slide"><img src="img1.jpg" alt="1"></div>
-        <div class="slide"><img src="img2.jpg" alt="2"></div>
-        <div class="slide"><img src="img3.jpg" alt="3"></div>
-        <div class="slide"><img src="img4.jpg" alt="4"></div>
-        <div class="slide"><img src="img5.jpg" alt="5"></div>
-        <div class="slide"><img src="img6.jpg" alt="6"></div>
-        <div class="slide"><img src="img7.jpg" alt="7"></div>
-        <div class="slide"><img src="img8.jpg" alt="8"></div>
-        <div class="slide"><img src="img9.jpg" alt="9"></div>
-        <div class="slide"><img src="img10.jpg" alt="10"></div>
+      <div class="slides">
+        <!-- Каждое фото вставляется сюда -->
+        <img src="img1.jpg" alt="Фото 1" />
+        <img src="img2.jpg" alt="Фото 2" />
+        <img src="img3.jpg" alt="Фото 3" />
+        <img src="img4.jpg" alt="Фото 4" />
+        <img src="img5.jpg" alt="Фото 5" />
+        <img src="img6.jpg" alt="Фото 6" />
+        <img src="img7.jpg" alt="Фото 7" />
+        <img src="img8.jpg" alt="Фото 8" />
+        <img src="img9.jpg" alt="Фото 9" />
+        <img src="img10.jpg" alt="Фото 10" />
       </div>
     </div>
   </div>
